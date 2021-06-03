@@ -1,21 +1,14 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using trell_clone.Repositories;
+using trello_clone.Repositories;
 
-namespace trell_clone
+namespace trello_clone
 {
     public class Startup
     {
@@ -51,7 +44,7 @@ namespace trell_clone
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "trell_clone", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "trello_clone", Version = "v1" });
             });
         }
 
@@ -62,7 +55,7 @@ namespace trell_clone
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "trell_clone v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "trello_clone v1"));
             }
 
             app.UseHttpsRedirection();

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
-namespace trell_clone.Repositories
+namespace trello_clone.Repositories
 {
     public abstract class BaseRepository
     {

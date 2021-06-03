@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace trell_clone.Models.Data
+namespace trello_clone.Models.Data
 {
     public class UserProfile
     {

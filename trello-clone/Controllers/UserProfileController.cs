@@ -1,9 +1,9 @@
-﻿using trell_clone.Models.Data;
-using trell_clone.Repositories;
+﻿using trello_clone.Models.Data;
+using trello_clone.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace trell_clone.Controllers
+namespace trello_clone.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]

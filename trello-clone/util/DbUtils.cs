@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Data.SqlClient;
 
-namespace trell_clone.Utils
+namespace trello_clone.Utils
 {
     /// <summary>
     ///  A set of useful function for interacting with ADO.NET

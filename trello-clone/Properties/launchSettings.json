@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "trell_clone": {
+    "trello_clone": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

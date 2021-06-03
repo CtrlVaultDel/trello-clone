@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>trell_clone</RootNamespace>
+    <RootNamespace>trello_clone</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
-using trell_clone.Models.Data;
-using trell_clone.Utils;
+using trello_clone.Models.Data;
+using trello_clone.Utils;
 
-namespace trell_clone.Repositories { 
+namespace trello_clone.Repositories { 
     public class UserProfileRepository : BaseRepository, IUserProfileRepository
     {
         public UserProfileRepository(IConfiguration configuration) : base(configuration) { }

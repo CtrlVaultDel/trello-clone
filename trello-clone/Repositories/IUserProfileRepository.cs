@@ -1,6 +1,6 @@
-﻿using trell_clone.Models.Data;
+﻿using trello_clone.Models.Data;
 
-namespace trell_clone.Repositories
+namespace trello_clone.Repositories
 {
     public interface IUserProfileRepository
     {
