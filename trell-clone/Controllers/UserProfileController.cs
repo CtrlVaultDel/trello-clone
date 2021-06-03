@@ -11,7 +11,7 @@ namespace trell_clone.Controllers
     public class UserController : BaseController
     {
         public UserController(
-            IUserRepository userRepository)
+            IUserProfileRepository userRepository)
         {
             _userRepository = userRepository;
         }

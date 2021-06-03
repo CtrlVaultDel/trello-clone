@@ -3,7 +3,7 @@ using trell_clone.Models.Data;
 using trell_clone.Utils;
 
 namespace trell_clone.Repositories { 
-    public class UserProfileRepository : BaseRepository, IUserRepository
+    public class UserProfileRepository : BaseRepository, IUserProfileRepository
     {
         public UserProfileRepository(IConfiguration configuration) : base(configuration) { }
 

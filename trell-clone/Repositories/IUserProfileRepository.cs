@@ -2,7 +2,7 @@
 
 namespace trell_clone.Repositories
 {
-    public interface IUserRepository
+    public interface IUserProfileRepository
     {
         UserProfile GetByFirebaseId(string firebaseId);
         void Add(UserProfile userProfile);

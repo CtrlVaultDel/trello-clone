@@ -7,7 +7,7 @@ namespace trell_clone.Controllers
 {
     public class BaseController : ControllerBase
     {
-        protected IUserRepository _userRepository;
+        protected IUserProfileRepository _userRepository;
 
         public BaseController() { }
 
